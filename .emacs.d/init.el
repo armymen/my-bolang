@@ -45,9 +45,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(abbrev-mode t t)
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
  '(auto-save-default nil)
  '(comment-column 2)
  '(current-language-environment "UTF-8")
+ '(custom-enabled-themes (quote (tango-dark)))
  '(default-input-method "latin-1-prefix")
  '(ffap-newfile-prompt t)
  '(font-lock-maximum-decoration 2)
